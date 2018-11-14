@@ -6,8 +6,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ParralaxComponent } from './parralax/parralax.component';
 import { InfoDivComponent } from './info-div/info-div.component';
 import { ParralaxtwoComponent } from './parralaxtwo/parralaxtwo.component';
-import { LogoComponent } from './logo/logo.component';
 import { ParallaxthreeComponent } from './parallaxthree/parallaxthree.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +16,8 @@ import { ParallaxthreeComponent } from './parallaxthree/parallaxthree.component'
     ParralaxComponent,
     InfoDivComponent,
     ParralaxtwoComponent,
-    LogoComponent,
-    ParallaxthreeComponent
+    ParallaxthreeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ParralaxComponent } from './parralax/parralax.component';
 import { InfoDivComponent } from './info-div/info-div.component';
 import { ParralaxtwoComponent } from './parralaxtwo/parralaxtwo.component';
+import { LogoComponent } from './logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ParralaxtwoComponent } from './parralaxtwo/parralaxtwo.component';
     NavbarComponent,
     ParralaxComponent,
     InfoDivComponent,
-    ParralaxtwoComponent
+    ParralaxtwoComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule

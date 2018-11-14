@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ParralaxComponent } from './parralax/parralax.component';
+import { InfoDivComponent } from './info-div/info-div.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ParralaxComponent
+    ParralaxComponent,
+    InfoDivComponent
   ],
   imports: [
     BrowserModule

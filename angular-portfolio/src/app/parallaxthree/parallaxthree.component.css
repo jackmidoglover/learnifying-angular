@@ -1,0 +1,12 @@
+.parralax {
+    background-image: url("../../assets/images/newmoon.jpeg");
+
+    min-height: 800px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 200px;
+}

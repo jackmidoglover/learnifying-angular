@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ParralaxComponent } from './parralax/parralax.component';
 import { InfoDivComponent } from './info-div/info-div.component';
+import { ParralaxtwoComponent } from './parralaxtwo/parralaxtwo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ParralaxComponent,
-    InfoDivComponent
+    InfoDivComponent,
+    ParralaxtwoComponent
   ],
   imports: [
     BrowserModule

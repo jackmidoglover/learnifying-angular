@@ -1,0 +1,5 @@
+<form class="form-control" class="userform" (submit)="onSubmit($event)">
+<label>Username</label>
+<input type="text" name="username" class="form-control" [(ngModel)]="username" id="username" (input)="checkInput()">
+<input type="submit" for="userform" class="btn btn-primary" value="Reset" [disabled]="username === ''">
+<p>{{ username }}</p> 

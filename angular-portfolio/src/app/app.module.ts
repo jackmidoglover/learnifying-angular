@@ -8,6 +8,7 @@ import { InfoDivComponent } from './info-div/info-div.component';
 import { ParralaxtwoComponent } from './parralaxtwo/parralaxtwo.component';
 import { ParallaxthreeComponent } from './parallaxthree/parallaxthree.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     InfoDivComponent,
     ParralaxtwoComponent,
     ParallaxthreeComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule

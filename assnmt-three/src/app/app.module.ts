@@ -2,14 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { Warning } from './warning/warning.component';
-import { SuccessComponent } from './success/success.component';
+import { NumberComponent } from './number/number.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Warning,
-    SuccessComponent
+    NumberComponent
   ],
   imports: [
     BrowserModule

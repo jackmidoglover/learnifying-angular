@@ -1,0 +1,7 @@
+<h1>Assignment Three!</h1>
+<hr>
+<button class="btn indigo" (click)="viewDetails()">View Details</button>
+<p *ngIf="showDetails">Winky likes to woof and woof and woof while I tutor.</p>
+<ul>
+  <li *ngFor="let number of numbers" [ngClass]="{blue: number > 5}">{{number}}</li>
+</ul>

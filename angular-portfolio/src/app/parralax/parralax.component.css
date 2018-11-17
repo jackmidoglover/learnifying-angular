@@ -1,7 +1,7 @@
 .parralax {
     background-image: url("../../assets/images/nightsky.jpeg");
 
-    min-height: 800px; 
+    min-height: 50vw; 
 
     background-attachment: fixed;
     background-position: center;

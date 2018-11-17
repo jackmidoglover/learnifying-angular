@@ -9,5 +9,5 @@
 <ng-template #noServer>
     <p>No server created...</p>
 </ng-template>
-<p [ngStyle]="{'background-color' : getColor()}">Server {{ serverId }} is {{ serverStatus }}.</p>
+<p [ngStyle]="{'background-color' : getColor()}" [ngClass]="{online: serverStatus === 'online'}">Server {{ serverId }} is {{ serverStatus }}.</p>
 <p>Server {{ serverId }} is {{ serverStatus }}.</p>

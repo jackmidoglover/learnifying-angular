@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { UsernameInputComponent } from './username-input/username-input.component';
+import { SingleServerComponent } from './single-server/single-server.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    UsernameInputComponent
+    UsernameInputComponent,
+    SingleServerComponent
   ],
   imports: [
     BrowserModule,

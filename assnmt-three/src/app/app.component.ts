@@ -13,12 +13,11 @@ export class AppComponent {
 
   showDetails = false;
   numbers = [];
-  number = 0;
   title = 'assnmt-three';
 
   viewDetails(){
-    this.number++;
-    this.numbers.push(this.number);
-    this.showDetails = true;
+    this.numbers.push(new Date());
+    this.showDetails = !this.showDetails;
+  
   }
 }

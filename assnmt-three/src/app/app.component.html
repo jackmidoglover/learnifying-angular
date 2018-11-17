@@ -3,5 +3,5 @@
 <button class="btn indigo" (click)="viewDetails()">View Details</button>
 <p *ngIf="showDetails">Winky likes to woof and woof and woof while I tutor.</p>
 <ul>
-  <li *ngFor="let number of numbers" [ngClass]="{blue: number > 5}">{{number}}</li>
+  <li *ngFor="let number of numbers; let i = index" [ngClass]="{blue: i > 5}">{{number}}</li>
 </ul>

@@ -6,13 +6,10 @@ import { Component, Output, EventEmitter } from '@angular/core';
 })
 
 export class HeaderComponent {
-    @Output() recipeClick = new EventEmitter<{name: string}>();
-    @Output() shoppingClick = new EventEmitter<{name: string}>();
-    openRecipe(){
-        this.recipeClick.emit({name: 'recipe'});
-    }
+    @Output() featureSelected = new EventEmitter<string>();
+    
 
-    openShoppingList(){
-        this.shoppingClick.emit({name: 'shoppingList'});
+    onSelect(feature: string){
+        this.featureSelected.emit(feature);
     }
 }

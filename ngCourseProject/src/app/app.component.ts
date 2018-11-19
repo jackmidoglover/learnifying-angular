@@ -11,9 +11,9 @@ export class AppComponent {
   shoppingListOpen = false; 
 
   openComponent(component){
-    if (component.name === 'recipe') {
+    if (component=== 'recipe') {
     this.recipeOpen = !this.recipeOpen;
-  } else if (component.name === 'shoppingList'){
+  } else if (component === 'shoppingList'){
     this.shoppingListOpen = !this.shoppingListOpen;
   }
   }

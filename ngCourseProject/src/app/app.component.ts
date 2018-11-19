@@ -7,4 +7,15 @@ import { HeaderComponent } from './header/header.component';
 })
 export class AppComponent {
   title = 'Recipe Book';
+  recipeOpen = false;
+  shoppingListOpen = false; 
+
+  openComponent(component){
+    if (component.name === 'recipe') {
+    this.recipeOpen = !this.recipeOpen;
+  } else if (component.name === 'shoppingList'){
+    this.shoppingListOpen = !this.shoppingListOpen;
+  }
+  }
+
 }

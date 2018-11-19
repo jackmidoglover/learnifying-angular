@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recipes.component.sass']
 })
 export class RecipesComponent implements OnInit {
-
+  detailWindowClicked = false;
+  recipeDetail;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  openDetailWindow(recipeInfo){
+    console.log(recipeInfo);
+    this.detailWindowClicked = recipeInfo.clicked;
+    this.recipeDetail = recipeInfo.recipe;
   }
 
 }

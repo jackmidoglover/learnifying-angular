@@ -6,10 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  gameNumber;
+  oddNumbers: number[] = [];
+  evenNumbers: number[] = [];
+
   gameStarted(output){
-    console.log(output.number);
-    this.gameNumber = output.number; 
+    if (output % 2 === 0){
+      this.evenNumbers.push(output);
+    } else {
+      this.oddNumbers.push(output);
+    }
   }
   // serverElements = [{type: 'server', name: 'Testserver', content: 'Just a test!'}];
 
